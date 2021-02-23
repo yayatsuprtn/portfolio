@@ -6,6 +6,10 @@ a {
     text-decoration: none !important;
 }
 
+a:hover {
+    color: orange;
+}
+
 .navbar-brand span {
     color: darkblue;
     font-weight: 500;
