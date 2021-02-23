@@ -6,8 +6,8 @@ a {
     text-decoration: none !important;
 }
 
-a:hover {
-    color: orange;
+.btn-primary:hover {
+    background-color: orange;
 }
 
 .navbar-brand span {
