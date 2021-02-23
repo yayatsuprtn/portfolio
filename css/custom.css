@@ -1,0 +1,70 @@
+body {
+    font-family: montserrat;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-brand span {
+    color: darkblue;
+    font-weight: 500;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: darkblue !important;
+}
+
+.jumbotron {
+    margin-top: 80px;
+    height: 480px;
+    background-color: #F6F4F4;
+}
+
+.jumbotron span {
+    color: darkblue;
+    font-weight: 500;
+}
+
+.jumbotron h3 {
+    font-size: 42px;
+    margin-top: 80px;
+}
+
+.jumbotron img {
+    width: 260px;
+    height: 353px;
+}
+
+#about {
+    margin-top: 60px;
+}
+
+#about span {
+    font-weight: 100;
+}
+
+#skills {
+    margin-top: 80px;
+    background-color: #F6F4F4;
+}
+
+#skills .container h3 {
+    padding-top: 80px !important;
+}
+
+#skills span {
+    font-weight: 100;
+}
+
+#portofolio {
+    margin-top: 80px;
+}
+
+#portofolio span {
+    font-weight: 100;
+}
