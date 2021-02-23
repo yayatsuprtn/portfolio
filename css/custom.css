@@ -13,11 +13,12 @@ a {
 
 .nav-link {
     text-transform: uppercase;
-    border-bottom: 1px solid darkblue;
+    
 }
 
 .nav-link:hover {
     color: darkblue !important;
+    border-bottom: 1px solid darkblue;
 }
 
 .jumbotron {
