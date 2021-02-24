@@ -38,12 +38,12 @@ a {
 
 .jumbotron h3 {
     font-size: 42px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
+
 .jumbotron img {
-    width: 260px;
-    height: 353px;
+    visibility: hidden;
 }
 
 #about {
@@ -74,3 +74,37 @@ a {
 #portofolio span {
     font-weight: 100;
 }
+
+
+@media (min-width: 992px) { 
+    .jumbotron h3 {
+        font-size: 42px;
+        margin-top: 60px;
+    }
+    
+    .jumbotron img {
+        width: 260px;
+        height: 353px;
+        visibility: visible;
+    }
+ }
+
+ /* @media (min-width: 768px) { 
+    .jumbotron img {
+        width: 260px;
+        height: 353px;
+        visibility: visible;
+    }
+  }
+ 
+ @media (min-width: 576px) { 
+    .jumbotron h3 {
+        font-size: 42px;
+        margin-top: 20px;
+    }
+    
+    .jumbotron img {
+        width: 260px;
+        height: 353px;
+    }
+ } */
